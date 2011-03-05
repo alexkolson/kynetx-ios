@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		F5500A2B12DB81A900172FFB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5500A2A12DB81A900172FFB /* CoreLocation.framework */; };
+		F565A9B212DE3B6000FEAC27 /* kynetx_logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = F565A9B112DE3B6000FEAC27 /* kynetx_logo_small.png */; };
+		F56F5C8812D3942E002ED032 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56F5C8612D3942E002ED032 /* MainViewController.m */; };
+		F56F5C8912D3942E002ED032 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56F5C8712D3942E002ED032 /* MainViewController.xib */; };
+		F5700CD512DD68A100080725 /* Kynetx.m in Sources */ = {isa = PBXBuildFile; fileRef = F5700CBF12DD68A100080725 /* Kynetx.m */; };
+		F5700CD612DD68A100080725 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F5700CC412DD68A100080725 /* NSObject+JSON.m */; };
+		F5700CD712DD68A100080725 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F5700CC612DD68A100080725 /* SBJsonParser.m */; };
+		F5700CD812DD68A100080725 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F5700CC812DD68A100080725 /* SBJsonStreamParser.m */; };
+		F5700CD912DD68A100080725 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F5700CCA12DD68A100080725 /* SBJsonStreamParserAdapter.m */; };
+		F5700CDA12DD68A100080725 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = F5700CCC12DD68A100080725 /* SBJsonStreamParserState.m */; };
+		F5700CDB12DD68A100080725 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F5700CCE12DD68A100080725 /* SBJsonStreamWriter.m */; };
+		F5700CDC12DD68A100080725 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = F5700CD012DD68A100080725 /* SBJsonStreamWriterState.m */; };
+		F5700CDD12DD68A100080725 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = F5700CD212DD68A100080725 /* SBJsonTokeniser.m */; };
+		F5700CDE12DD68A100080725 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F5700CD412DD68A100080725 /* SBJsonWriter.m */; };
+		F58281A512E0CBC8002C795C /* kynetx_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F58281A412E0CBC8002C795C /* kynetx_logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* kynetx-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kynetx-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* kynetx_iOS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kynetx_iOS_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* kynetx_iOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "kynetx_iOS-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F5500A2A12DB81A900172FFB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F565A9B112DE3B6000FEAC27 /* kynetx_logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kynetx_logo_small.png; sourceTree = "<group>"; };
+		F56F5C8512D3942E002ED032 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F56F5C8612D3942E002ED032 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F56F5C8712D3942E002ED032 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		F5700CBF12DD68A100080725 /* Kynetx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Kynetx.m; path = "../kynetx-objc/Examples/CocoaApp/Kynetx.m"; sourceTree = SOURCE_ROOT; };
+		F5700CC012DD68A100080725 /* Kynetx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Kynetx.h; path = "../kynetx-objc/Examples/CocoaApp/Kynetx.h"; sourceTree = SOURCE_ROOT; };
+		F5700CC212DD68A100080725 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		F5700CC312DD68A100080725 /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSON.h"; sourceTree = "<group>"; };
+		F5700CC412DD68A100080725 /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSON.m"; sourceTree = "<group>"; };
+		F5700CC512DD68A100080725 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		F5700CC612DD68A100080725 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		F5700CC712DD68A100080725 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		F5700CC812DD68A100080725 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		F5700CC912DD68A100080725 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		F5700CCA12DD68A100080725 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		F5700CCB12DD68A100080725 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		F5700CCC12DD68A100080725 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		F5700CCD12DD68A100080725 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		F5700CCE12DD68A100080725 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		F5700CCF12DD68A100080725 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		F5700CD012DD68A100080725 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		F5700CD112DD68A100080725 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		F5700CD212DD68A100080725 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		F5700CD312DD68A100080725 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		F5700CD412DD68A100080725 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		F58281A412E0CBC8002C795C /* kynetx_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kynetx_logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				F5500A2B12DB81A900172FFB /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5700CC112DD68A100080725 /* JSON */,
+				F5700CBF12DD68A100080725 /* Kynetx.m */,
+				F5700CC012DD68A100080725 /* Kynetx.h */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+				F56F5C8512D3942E002ED032 /* MainViewController.h */,
+				F56F5C8612D3942E002ED032 /* MainViewController.m */,
+				F56F5C8712D3942E002ED032 /* MainViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* kynetx-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* kynetx_iOS_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F58281A412E0CBC8002C795C /* kynetx_logo.png */,
+				F565A9B112DE3B6000FEAC27 /* kynetx_logo_small.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* kynetx_iOS-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				F5500A2A12DB81A900172FFB /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5700CC112DD68A100080725 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				F5700CC212DD68A100080725 /* JSON.h */,
+				F5700CC312DD68A100080725 /* NSObject+JSON.h */,
+				F5700CC412DD68A100080725 /* NSObject+JSON.m */,
+				F5700CC512DD68A100080725 /* SBJsonParser.h */,
+				F5700CC612DD68A100080725 /* SBJsonParser.m */,
+				F5700CC712DD68A100080725 /* SBJsonStreamParser.h */,
+				F5700CC812DD68A100080725 /* SBJsonStreamParser.m */,
+				F5700CC912DD68A100080725 /* SBJsonStreamParserAdapter.h */,
+				F5700CCA12DD68A100080725 /* SBJsonStreamParserAdapter.m */,
+				F5700CCB12DD68A100080725 /* SBJsonStreamParserState.h */,
+				F5700CCC12DD68A100080725 /* SBJsonStreamParserState.m */,
+				F5700CCD12DD68A100080725 /* SBJsonStreamWriter.h */,
+				F5700CCE12DD68A100080725 /* SBJsonStreamWriter.m */,
+				F5700CCF12DD68A100080725 /* SBJsonStreamWriterState.h */,
+				F5700CD012DD68A100080725 /* SBJsonStreamWriterState.m */,
+				F5700CD112DD68A100080725 /* SBJsonTokeniser.h */,
+				F5700CD212DD68A100080725 /* SBJsonTokeniser.m */,
+				F5700CD312DD68A100080725 /* SBJsonWriter.h */,
+				F5700CD412DD68A100080725 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			path = "../kynetx-objc/Examples/CocoaApp/JSON";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* kynetx-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "kynetx-iOS" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kynetx-iOS";
+			productName = "kynetx-iOS";
+			productReference = 1D6058910D05DD3D006BFB54 /* kynetx-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "kynetx-iOS" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* kynetx-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				F56F5C8912D3942E002ED032 /* MainViewController.xib in Resources */,
+				F565A9B212DE3B6000FEAC27 /* kynetx_logo_small.png in Resources */,
+				F58281A512E0CBC8002C795C /* kynetx_logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				F56F5C8812D3942E002ED032 /* MainViewController.m in Sources */,
+				F5700CD512DD68A100080725 /* Kynetx.m in Sources */,
+				F5700CD612DD68A100080725 /* NSObject+JSON.m in Sources */,
+				F5700CD712DD68A100080725 /* SBJsonParser.m in Sources */,
+				F5700CD812DD68A100080725 /* SBJsonStreamParser.m in Sources */,
+				F5700CD912DD68A100080725 /* SBJsonStreamParserAdapter.m in Sources */,
+				F5700CDA12DD68A100080725 /* SBJsonStreamParserState.m in Sources */,
+				F5700CDB12DD68A100080725 /* SBJsonStreamWriter.m in Sources */,
+				F5700CDC12DD68A100080725 /* SBJsonStreamWriterState.m in Sources */,
+				F5700CDD12DD68A100080725 /* SBJsonTokeniser.m in Sources */,
+				F5700CDE12DD68A100080725 /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = kynetx_iOS_Prefix.pch;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "kynetx_iOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../kynetx-objc/build/Release\"",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "kynetx-iOS";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "$(KYNETX_OBJC_LIBRARY)/**";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = kynetx_iOS_Prefix.pch;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "kynetx_iOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../kynetx-objc/build/Release\"",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "kynetx-iOS";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "$(KYNETX_OBJC_LIBRARY)/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alex Olson (8B6YP4SC9G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "C9A1E4D7-70D1-4026-B07D-7A175413E3B1";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alex Olson (8B6YP4SC9G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "C9A1E4D7-70D1-4026-B07D-7A175413E3B1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F5BC674712F341F000A3F8A7 /* Ad Hoc Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Alex Olson";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "34AADD67-52E4-47AE-A1FA-B89AC5072810";
+				SDKROOT = iphoneos;
+			};
+			name = "Ad Hoc Distribution";
+		};
+		F5BC674812F341F000A3F8A7 /* Ad Hoc Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = kynetx_iOS_Prefix.pch;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "kynetx_iOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../kynetx-objc/build/Release\"",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "kynetx-iOS";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				USER_HEADER_SEARCH_PATHS = "$(KYNETX_OBJC_LIBRARY)/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc Distribution";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "kynetx-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				F5BC674812F341F000A3F8A7 /* Ad Hoc Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "kynetx-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				F5BC674712F341F000A3F8A7 /* Ad Hoc Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

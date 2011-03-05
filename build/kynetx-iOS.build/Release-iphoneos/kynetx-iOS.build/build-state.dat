@@ -1,0 +1,1011 @@
+Tkynetx-iOS
+v7
+r0
+t317930608.334808
+cCheck dependencies
+cCpResource build/Release-iphoneos/kynetx-iOS.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/Info.plist kynetx_iOS-Info.plist
+cCompileXIB /Users/alexolson/Documents/rws/kynetx-iOS/MainWindow.xib
+cCompileXIB /Users/alexolson/Documents/rws/kynetx-iOS/Classes/MainViewController.xib
+cCopyPNGFile /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/kynetx_logo_small.png kynetx_logo_small.png
+cCopyPNGFile /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/kynetx_logo.png kynetx_logo.png
+cProcessPCH /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-ercfxvcshlnbajcbkndxquvwqbet/kynetx_iOS_Prefix.pch.gch kynetx_iOS_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-hdbqvlcyebrznpgxqdspiqngfcum/kynetx_iOS_Prefix.pch.gch kynetx_iOS_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/main.o /Users/alexolson/Documents/rws/kynetx-iOS/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/AppDelegate.o /Users/alexolson/Documents/rws/kynetx-iOS/Classes/AppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/MainViewController.o /Users/alexolson/Documents/rws/kynetx-iOS/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/Kynetx.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/Kynetx.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/NSObject+JSON.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/NSObject+JSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonParser.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamParser.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamParserAdapter.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserAdapter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamParserState.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserState.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamWriter.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamWriterState.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriterState.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonTokeniser.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonTokeniser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonWriter.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/kynetx-iOS normal armv6
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/main.o /Users/alexolson/Documents/rws/kynetx-iOS/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/AppDelegate.o /Users/alexolson/Documents/rws/kynetx-iOS/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/MainViewController.o /Users/alexolson/Documents/rws/kynetx-iOS/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/Kynetx.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/Kynetx.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/NSObject+JSON.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/NSObject+JSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonParser.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamParser.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamParserAdapter.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserAdapter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamParserState.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserState.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamWriter.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamWriterState.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriterState.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonTokeniser.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonTokeniser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonWriter.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/kynetx-iOS normal armv7
+cCreateUniversalBinary /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/kynetx-iOS normal "armv6 armv7"
+cGenerateDSYMFile /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app.dSYM /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/kynetx-iOS
+cProcessProductPackaging "/Users/alexolson/Library/MobileDevice/Provisioning Profiles/C9A1E4D7-70D1-4026-B07D-7A175413E3B1.mobileprovision" /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/embedded.mobileprovision
+cTouch /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS.xcent
+cCodeSign /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app
+cValidate /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC11B5300000000000D96F0
+t1287723859
+s890608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC11B4300000000000001D0
+t1287723843
+s464
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/NSObject+JSON.m
+c000000004D2D25FD00000000000008C2
+t1294804477
+s2242
+i"NSObject+JSON.h"
+i"SBJsonWriter.h"
+i"SBJsonParser.h"
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonParser.m
+c000000004D2D25FD0000000000000D75
+t1294804477
+s3445
+i"SBJsonParser.h"
+i"SBJsonStreamParser.h"
+i"SBJsonStreamParserAdapter.h"
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParser.m
+c000000004D2D25FD0000000000001E93
+t1294804477
+s7827
+i"SBJsonStreamParser.h"
+i"SBJsonTokeniser.h"
+i"SBJsonStreamParserState.h"
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserAdapter.m
+c000000004D2D25FD00000000000011A1
+t1294804477
+s4513
+i"SBJsonStreamParserAdapter.h"
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserState.m
+c000000004D2D25FD0000000000002754
+t1294804477
+s10068
+i"SBJsonStreamParserState.h"
+i"SBJsonStreamParser.h"
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriter.m
+c000000004D2D25FD0000000000002893
+t1294804477
+s10387
+i"SBJsonStreamWriter.h"
+i"SBJsonStreamWriterState.h"
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriterState.m
+c000000004D2D25FD0000000000001369
+t1294804477
+s4969
+i"SBJsonStreamWriterState.h"
+i"SBJsonStreamWriter.h"
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonTokeniser.m
+c000000004D2D25FD00000000000027C0
+t1294804477
+s10176
+i"SBJsonTokeniser.h"
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonWriter.m
+c000000004D2D25FD0000000000000C98
+t1294804477
+s3224
+i"SBJsonWriter.h"
+i"SBJsonStreamWriter.h"
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/Kynetx.m
+c000000004D40BFFB00000000000023FE
+t1296089083
+s9214
+i"Kynetx.h"
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/Classes/AppDelegate.m
+c000000004D40BEFE0000000000000CB5
+t1296088830
+s3253
+i"AppDelegate.h"
+i"MainViewController.h"
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/Classes/MainViewController.h
+c000000004D40BF4300000000000004E3
+t1296088899
+s1251
+i"kynetx.h"
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/Classes/MainViewController.m
+c000000004D40C07F0000000000001D55
+t1296089215
+s7509
+i"MainViewController.h"
+i"kynetx.h"
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/Classes/MainViewController.xib
+c000000004D30C8500000000000008A04
+t1295042640
+s35332
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/MainWindow.xib
+c000000004D308BC70000000000004618
+t1295027143
+s17944
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app
+t1296237787
+s442
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app.dSYM
+t1296237787
+s102
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/Info.plist
+t1296237781
+s898
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/MainViewController.nib
+t1296237782
+s3330
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/MainWindow.nib
+t1296237782
+s954
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/PkgInfo
+t1296237781
+s8
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/ResourceRules.plist
+t1296237781
+s485
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/embedded.mobileprovision
+t1296237787
+s7234
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/kynetx-iOS
+t1296237787
+s239360
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/kynetx_logo.png
+t1296237782
+s18001
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/kynetx_logo_small.png
+t1296237782
+s4552
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/AppDelegate.o
+t1296237784
+s54072
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/Kynetx.o
+t1296237784
+s32244
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/MainViewController.o
+t1296237784
+s76708
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/NSObject+JSON.o
+t1296237784
+s8952
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonParser.o
+t1296237784
+s17176
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamParser.o
+t1296237784
+s24516
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamParserAdapter.o
+t1296237784
+s21492
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamParserState.o
+t1296237784
+s36392
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamWriter.o
+t1296237785
+s36092
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamWriterState.o
+t1296237785
+s22864
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonTokeniser.o
+t1296237785
+s24896
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonWriter.o
+t1296237785
+s17160
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/kynetx-iOS
+t1296237785
+s110568
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/kynetx-iOS.LinkFileList
+c000000004D4304D50000000000000705
+t1296237781
+s1797
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/main.o
+t1296237784
+s6516
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/AppDelegate.o
+t1296237785
+s54076
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/Kynetx.o
+t1296237786
+s32020
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/MainViewController.o
+t1296237785
+s76624
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/NSObject+JSON.o
+t1296237786
+s8996
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonParser.o
+t1296237786
+s17180
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamParser.o
+t1296237786
+s24716
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamParserAdapter.o
+t1296237786
+s21384
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamParserState.o
+t1296237786
+s36196
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamWriter.o
+t1296237786
+s35568
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamWriterState.o
+t1296237786
+s22812
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonTokeniser.o
+t1296237787
+s24468
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonWriter.o
+t1296237787
+s17172
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/kynetx-iOS
+t1296237787
+s110140
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/kynetx-iOS.LinkFileList
+c000000004D4304D50000000000000705
+t1296237781
+s1797
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/main.o
+t1296237785
+s6496
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS.xcent
+t1296237787
+s420
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/kynetx_iOS_Prefix.pch
+c000000004D2B4A6600000000000000E4
+t1294682726
+s228
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/kynetx_logo.png
+c000000004B72FC7E00000000000042FF
+t1265826942
+s17151
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/kynetx_logo_small.png
+c000000004D2E02FD0000000000001098
+t1294861053
+s4248
+
+N/Users/alexolson/Documents/rws/kynetx-iOS/main.m
+c000000004D235B770000000000000159
+t1294162807
+s345
+i<UIKit/UIKit.h>
+
+N/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/AppDelegate.h
+c000000004D2D25FD0000000000000174
+t1294804477
+s372
+i<Cocoa/Cocoa.h>
+
+N/Users/alexolson/Documents/rws/kynetx-objc/JSON/JSON.h
+c000000004D2D25E60000000000000B5B
+t1294804454
+s2907
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+i"SBJsonStreamWriter.h"
+i"SBJsonStreamParser.h"
+i"SBJsonStreamParserAdapter.h"
+i"NSObject+JSON.h"
+i<JSON/SBJsonParser.h>
+i<JSON/SBJsonWriter.h>
+i<JSON/SBJsonStreamParser.h>
+i<JSON/SBJsonStreamParserAdapter.h>
+i<JSON/SBJsonStreamWriter.h>
+i<JSON/NSObject+JSON.h>
+
+N/Users/alexolson/Documents/rws/kynetx-objc/JSON/NSObject+JSON.h
+c000000004D2D25E60000000000000899
+t1294804454
+s2201
+i<Foundation/Foundation.h>
+
+N/Users/alexolson/Documents/rws/kynetx-objc/JSON/SBJsonParser.h
+c000000004D2D25E60000000000000FCC
+t1294804454
+s4044
+i<Foundation/Foundation.h>
+
+N/Users/alexolson/Documents/rws/kynetx-objc/JSON/SBJsonStreamParser.h
+c000000004D2D25E60000000000001163
+t1294804454
+s4451
+i<Foundation/Foundation.h>
+
+N/Users/alexolson/Documents/rws/kynetx-objc/JSON/SBJsonStreamParserAdapter.h
+c000000004D2D25E60000000000000C3B
+t1294804454
+s3131
+i<Foundation/Foundation.h>
+i"SBJsonStreamParser.h"
+
+N/Users/alexolson/Documents/rws/kynetx-objc/JSON/SBJsonStreamParserState.h
+c000000004D2D25E60000000000000C6F
+t1294804454
+s3183
+i<Foundation/Foundation.h>
+i"SBJsonTokeniser.h"
+i"SBJsonStreamParser.h"
+
+N/Users/alexolson/Documents/rws/kynetx-objc/JSON/SBJsonStreamWriter.h
+c000000004D2D25E600000000000014F0
+t1294804454
+s5360
+i<Foundation/Foundation.h>
+
+N/Users/alexolson/Documents/rws/kynetx-objc/JSON/SBJsonStreamWriterState.h
+c000000004D2D25E60000000000000B5D
+t1294804454
+s2909
+i<Foundation/Foundation.h>
+
+N/Users/alexolson/Documents/rws/kynetx-objc/JSON/SBJsonTokeniser.h
+c000000004D2D25E60000000000000923
+t1294804454
+s2339
+i<Foundation/Foundation.h>
+
+N/Users/alexolson/Documents/rws/kynetx-objc/JSON/SBJsonWriter.h
+c000000004D2D25E600000000000012F9
+t1294804454
+s4857
+i<Foundation/Foundation.h>
+
+N/Users/alexolson/Documents/rws/kynetx-objc/kynetx.h
+c000000004D30E7A90000000000000CE3
+t1295050665
+s3299
+i"JSON/JSON.h"
+
+N/Users/alexolson/Library/MobileDevice/Provisioning Profiles/C9A1E4D7-70D1-4026-B07D-7A175413E3B1.mobileprovision
+c000000004D30F19F0000000000001C42
+t1295053215
+s7234
+
+N/var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-ercfxvcshlnbajcbkndxquvwqbet/kynetx_iOS_Prefix.pch.gch
+t1296237783
+s9856952
+
+N/var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-hdbqvlcyebrznpgxqdspiqngfcum/kynetx_iOS_Prefix.pch.gch
+t1296237783
+s10315704
+
+Nkynetx_iOS-Info.plist
+c000000004D2E03FA0000000000000400
+t1294861306
+s1024
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317930608#317930608#0(0"0(0#1#0"8607011744#0"0#
+
+CCodeSign /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app
+s317930587.426001
+e317930587.756752
+r1
+xCodeSign
+x/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app
+lSLF07#2@46"CodeSign build/Release-iphoneos/kynetx-iOS.app317930587#317930587#0(0"0(0#0#79"/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app8610426784#679"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Alex Olson (8B6YP4SC9G)" --resource-rules=/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/ResourceRules.plist --entitlements /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS.xcent /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/AppDelegate.o /Users/alexolson/Documents/rws/kynetx-iOS/Classes/AppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317930583.891026
+e317930584.154251
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/AppDelegate.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/Classes/AppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/alexolson/Documents/rws/kynetx-iOS/Classes/AppDelegate.m317930583#317930584#0(0"0(0#0#63"/Users/alexolson/Documents/rws/kynetx-iOS/Classes/AppDelegate.m8606281600#2186"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv6 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-ercfxvcshlnbajcbkndxquvwqbet/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/Classes/AppDelegate.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/AppDelegate.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/Kynetx.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/Kynetx.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317930584.154348
+e317930584.423375
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/Kynetx.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/Kynetx.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/Kynetx.m317930584#317930584#0(0"0(0#0#83"/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/Kynetx.m8611499584#2201"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv6 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-ercfxvcshlnbajcbkndxquvwqbet/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/Kynetx.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/Kynetx.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/MainViewController.o /Users/alexolson/Documents/rws/kynetx-iOS/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317930584.058497
+e317930584.481041
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/MainViewController.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/Classes/MainViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/alexolson/Documents/rws/kynetx-iOS/Classes/MainViewController.m317930584#317930584#0(0"0(0#0#70"/Users/alexolson/Documents/rws/kynetx-iOS/Classes/MainViewController.m8610607040#2200"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv6 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-ercfxvcshlnbajcbkndxquvwqbet/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/Classes/MainViewController.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/MainViewController.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/NSObject+JSON.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/NSObject+JSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317930584.423478
+e317930584.490727
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/NSObject+JSON.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/NSObject+JSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/NSObject+JSON.m317930584#317930584#0(0"0(0#0#95"/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/NSObject+JSON.m8610711200#2220"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv6 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-ercfxvcshlnbajcbkndxquvwqbet/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/NSObject+JSON.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/NSObject+JSON.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonParser.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317930584.481145
+e317930584.617297
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonParser.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonParser.m317930584#317930584#0(0"0(0#0#94"/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonParser.m8610079232#2218"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv6 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-ercfxvcshlnbajcbkndxquvwqbet/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonParser.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonParser.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamParser.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317930584.490832
+e317930584.749345
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamParser.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParser.m317930584#317930584#0(0"0(0#0#100"/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParser.m8604358144#2230"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv6 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-ercfxvcshlnbajcbkndxquvwqbet/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParser.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamParser.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamParserAdapter.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserAdapter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317930584.617401
+e317930584.805271
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamParserAdapter.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserAdapter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@115"Compile /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserAdapter.m317930584#317930584#0(0"0(0#0#107"/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserAdapter.m8611334624#2244"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv6 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-ercfxvcshlnbajcbkndxquvwqbet/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserAdapter.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamParserAdapter.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamParserState.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserState.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317930584.749445
+e317930584.987423
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamParserState.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserState.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserState.m317930584#317930584#0(0"0(0#0#105"/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserState.m8604090880#2240"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv6 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-ercfxvcshlnbajcbkndxquvwqbet/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserState.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamParserState.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamWriter.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317930584.805379
+e317930585.231706
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamWriter.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriter.m317930584#317930585#0(0"0(0#0#100"/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriter.m8607643904#2230"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv6 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-ercfxvcshlnbajcbkndxquvwqbet/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriter.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamWriter.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamWriterState.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriterState.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317930584.987526
+e317930585.112792
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamWriterState.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriterState.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriterState.m317930584#317930585#0(0"0(0#0#105"/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriterState.m8611071456#2240"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv6 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-ercfxvcshlnbajcbkndxquvwqbet/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriterState.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonStreamWriterState.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonTokeniser.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonTokeniser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317930585.112892
+e317930585.352879
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonTokeniser.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonTokeniser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonTokeniser.m317930585#317930585#0(0"0(0#0#97"/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonTokeniser.m8610132640#2224"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv6 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-ercfxvcshlnbajcbkndxquvwqbet/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonTokeniser.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonTokeniser.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonWriter.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317930585.231807
+e317930585.373739
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonWriter.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonWriter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonWriter.m317930585#317930585#0(0"0(0#0#94"/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonWriter.m8603888032#2218"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv6 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-ercfxvcshlnbajcbkndxquvwqbet/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonWriter.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/SBJsonWriter.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/main.o /Users/alexolson/Documents/rws/kynetx-iOS/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317930583.890006
+e317930584.058389
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/main.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/alexolson/Documents/rws/kynetx-iOS/main.m317930583#317930584#0(0"0(0#0#48"/Users/alexolson/Documents/rws/kynetx-iOS/main.m8607530240#2164"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv6 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-ercfxvcshlnbajcbkndxquvwqbet/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/main.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/AppDelegate.o /Users/alexolson/Documents/rws/kynetx-iOS/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317930585.433342
+e317930585.557114
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/AppDelegate.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/Classes/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/alexolson/Documents/rws/kynetx-iOS/Classes/AppDelegate.m317930585#317930585#0(0"0(0#0#63"/Users/alexolson/Documents/rws/kynetx-iOS/Classes/AppDelegate.m8610401824#2186"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv7 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-hdbqvlcyebrznpgxqdspiqngfcum/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/Classes/AppDelegate.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/AppDelegate.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/Kynetx.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/Kynetx.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317930585.855409
+e317930586.186179
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/Kynetx.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/Kynetx.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/Kynetx.m317930585#317930586#0(0"0(0#0#83"/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/Kynetx.m8610695296#2201"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv7 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-hdbqvlcyebrznpgxqdspiqngfcum/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/Kynetx.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/Kynetx.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/MainViewController.o /Users/alexolson/Documents/rws/kynetx-iOS/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317930585.557216
+e317930585.938938
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/MainViewController.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/Classes/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/alexolson/Documents/rws/kynetx-iOS/Classes/MainViewController.m317930585#317930585#0(0"0(0#0#70"/Users/alexolson/Documents/rws/kynetx-iOS/Classes/MainViewController.m8611101152#2200"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv7 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-hdbqvlcyebrznpgxqdspiqngfcum/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/Classes/MainViewController.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/MainViewController.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/NSObject+JSON.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/NSObject+JSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317930585.939040
+e317930586.027809
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/NSObject+JSON.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/NSObject+JSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/NSObject+JSON.m317930585#317930586#0(0"0(0#0#95"/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/NSObject+JSON.m8610038656#2220"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv7 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-hdbqvlcyebrznpgxqdspiqngfcum/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/NSObject+JSON.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/NSObject+JSON.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonParser.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317930586.027912
+e317930586.147684
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonParser.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonParser.m317930586#317930586#0(0"0(0#0#94"/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonParser.m8611641600#2218"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv7 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-hdbqvlcyebrznpgxqdspiqngfcum/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonParser.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonParser.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamParser.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317930586.147988
+e317930586.436108
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamParser.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParser.m317930586#317930586#0(0"0(0#0#100"/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParser.m8604608352#2230"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv7 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-hdbqvlcyebrznpgxqdspiqngfcum/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParser.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamParser.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamParserAdapter.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserAdapter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317930586.186280
+e317930586.368096
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamParserAdapter.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserAdapter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@115"Compile /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserAdapter.m317930586#317930586#0(0"0(0#0#107"/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserAdapter.m8603373056#2244"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv7 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-hdbqvlcyebrznpgxqdspiqngfcum/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserAdapter.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamParserAdapter.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamParserState.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserState.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317930586.368196
+e317930586.619451
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamParserState.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserState.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserState.m317930586#317930586#0(0"0(0#0#105"/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserState.m8606008320#2240"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv7 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-hdbqvlcyebrznpgxqdspiqngfcum/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamParserState.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamParserState.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamWriter.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317930586.436207
+e317930586.874912
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamWriter.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriter.m317930586#317930586#0(0"0(0#0#100"/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriter.m8610449088#2230"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv7 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-hdbqvlcyebrznpgxqdspiqngfcum/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriter.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamWriter.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamWriterState.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriterState.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317930586.619549
+e317930586.750938
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamWriterState.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriterState.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriterState.m317930586#317930586#0(0"0(0#0#105"/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriterState.m8610755232#2240"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv7 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-hdbqvlcyebrznpgxqdspiqngfcum/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonStreamWriterState.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonStreamWriterState.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonTokeniser.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonTokeniser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317930586.751034
+e317930587.078568
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonTokeniser.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonTokeniser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonTokeniser.m317930586#317930587#0(0"0(0#0#97"/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonTokeniser.m8606191872#2224"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv7 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-hdbqvlcyebrznpgxqdspiqngfcum/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonTokeniser.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonTokeniser.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonWriter.o /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317930586.875092
+e317930587.078847
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonWriter.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonWriter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonWriter.m317930586#317930587#0(0"0(0#0#94"/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonWriter.m8611279040#2218"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv7 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-hdbqvlcyebrznpgxqdspiqngfcum/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/Examples/CocoaApp/JSON/SBJsonWriter.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/SBJsonWriter.o0#
+
+CCompileC build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/main.o /Users/alexolson/Documents/rws/kynetx-iOS/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317930585.353077
+e317930585.433161
+r1
+xCompileC
+xbuild/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/main.o
+x/Users/alexolson/Documents/rws/kynetx-iOS/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/alexolson/Documents/rws/kynetx-iOS/main.m317930585#317930585#0(0"0(0#0#48"/Users/alexolson/Documents/rws/kynetx-iOS/main.m8607046368#2164"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv7 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-hdbqvlcyebrznpgxqdspiqngfcum/kynetx_iOS_Prefix.pch -c /Users/alexolson/Documents/rws/kynetx-iOS/main.m -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/alexolson/Documents/rws/kynetx-iOS/Classes/MainViewController.xib
+s317930581.986151
+e317930582.958288
+r1
+xCompileXIB
+x/Users/alexolson/Documents/rws/kynetx-iOS/Classes/MainViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@41"CompileXIB Classes/MainViewController.xib317930581#317930582#0(252"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#72"/Users/alexolson/Documents/rws/kynetx-iOS/Classes/MainViewController.xib8611243584#580"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/MainViewController.nib /Users/alexolson/Documents/rws/kynetx-iOS/Classes/MainViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/alexolson/Documents/rws/kynetx-iOS/MainWindow.xib
+s317930581.985437
+e317930582.451572
+r1
+xCompileXIB
+x/Users/alexolson/Documents/rws/kynetx-iOS/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib317930581#317930582#0(0"0(0#0#56"/Users/alexolson/Documents/rws/kynetx-iOS/MainWindow.xib8611382624#556"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/MainWindow.nib /Users/alexolson/Documents/rws/kynetx-iOS/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/kynetx_logo.png kynetx_logo.png
+s317930582.560749
+e317930582.655782
+r1
+xCopyPNGFile
+x/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/kynetx_logo.png
+xkynetx_logo.png
+lSLF07#2@81"CopyPNGFile build/Release-iphoneos/kynetx-iOS.app/kynetx_logo.png kynetx_logo.png317930582#317930582#0(0"0(0#0#57"/Users/alexolson/Documents/rws/kynetx-iOS/kynetx_logo.png32370099069714544#584"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/alexolson/Documents/rws/kynetx-iOS/kynetx_logo.png /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/kynetx_logo.png0#
+
+CCopyPNGFile /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/kynetx_logo_small.png kynetx_logo_small.png
+s317930582.451668
+e317930582.560630
+r1
+xCopyPNGFile
+x/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/kynetx_logo_small.png
+xkynetx_logo_small.png
+lSLF07#2@93"CopyPNGFile build/Release-iphoneos/kynetx-iOS.app/kynetx_logo_small.png kynetx_logo_small.png317930582#317930582#0(0"0(0#0#63"/Users/alexolson/Documents/rws/kynetx-iOS/kynetx_logo_small.png8611857216#596"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/alexolson/Documents/rws/kynetx-iOS/kynetx_logo_small.png /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/kynetx_logo_small.png0#
+
+CCpResource build/Release-iphoneos/kynetx-iOS.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s317930581.937844
+e317930581.985343
+r1
+xCpResource
+xbuild/Release-iphoneos/kynetx-iOS.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist317930581#317930581#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist5994135409057033216#526"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app0#
+
+CCreateUniversalBinary /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/kynetx-iOS normal "armv6 armv7"
+s317930587.224250
+e317930587.265418
+r1
+xCreateUniversalBinary
+x/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/kynetx-iOS
+xnormal
+xarmv6 armv7
+lSLF07#2@91"CreateUniversalBinary build/Release-iphoneos/kynetx-iOS.app/kynetx-iOS normal "armv6 armv7"317930587#317930587#0(0"0(0#0#53"/Users/alexolson/Documents/rws/kynetx-iOS/armv6 armv78611778400#560"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/kynetx-iOS /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/kynetx-iOS -output /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/kynetx-iOS0#
+
+CGenerateDSYMFile /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app.dSYM /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/kynetx-iOS
+s317930587.265526
+e317930587.377735
+r1
+xGenerateDSYMFile
+x/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app.dSYM
+x/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/kynetx-iOS
+lSLF07#2@108"GenerateDSYMFile build/Release-iphoneos/kynetx-iOS.app.dSYM build/Release-iphoneos/kynetx-iOS.app/kynetx-iOS317930587#317930587#0(0"0(0#0#90"/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/kynetx-iOS8610395872#384"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/kynetx-iOS -o /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app.dSYM0#
+
+CLd /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/kynetx-iOS normal armv6
+s317930585.373837
+e317930585.855308
+r1
+xLd
+x/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/kynetx-iOS
+xnormal
+xarmv6
+old: warning: directory '/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/build/Release' following -L not found
+lSLF07#2@135"Link /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/kynetx-iOS317930585#317930585#0(119"ld: warning: directory '/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/build/Release' following -L not found1(22@105"Directory '/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/build/Release' following -L not found317930585#0#119#0(6@0"317930585#0#0#0#0#0"0(0#0#0"8611359776#997"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -L/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/build/Release -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -filelist /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/kynetx-iOS.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv6/kynetx-iOS0#
+
+CLd /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/kynetx-iOS normal armv7
+s317930587.078912
+e317930587.224142
+r1
+xLd
+x/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/kynetx-iOS
+xnormal
+xarmv7
+old: warning: directory '/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/build/Release' following -L not found
+lSLF07#2@135"Link /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/kynetx-iOS317930587#317930587#0(119"ld: warning: directory '/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/build/Release' following -L not found1(22@105"Directory '/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/build/Release' following -L not found317930587#0#119#0(6@0"317930587#0#0#0#0#0"0(0#0#0"8606488448#997"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -L/Users/alexolson/Documents/rws/kynetx-iOS/../kynetx-objc/build/Release -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -filelist /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/kynetx-iOS.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/Objects-normal/armv7/kynetx-iOS0#
+
+CProcessInfoPlistFile /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/Info.plist kynetx_iOS-Info.plist
+s317930581.951804
+e317930581.966817
+r1
+xProcessInfoPlistFile
+x/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/Info.plist
+xkynetx_iOS-Info.plist
+lSLF07#2@29"Process kynetx_iOS-Info.plist317930581#317930581#0(0"0(0#0#63"/Users/alexolson/Documents/rws/kynetx-iOS/kynetx_iOS-Info.plist8611891456#592"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility kynetx_iOS-Info.plist -genpkginfo /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/ResourceRules.plist -o /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/Info.plist0#
+
+CProcessPCH /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-ercfxvcshlnbajcbkndxquvwqbet/kynetx_iOS_Prefix.pch.gch kynetx_iOS_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317930582.958508
+e317930583.889902
+r1
+xProcessPCH
+x/var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-ercfxvcshlnbajcbkndxquvwqbet/kynetx_iOS_Prefix.pch.gch
+xkynetx_iOS_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile kynetx_iOS_Prefix.pch317930582#317930583#0(0"0(0#0#63"/Users/alexolson/Documents/rws/kynetx-iOS/kynetx_iOS_Prefix.pch8607064928#2054"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv6 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/alexolson/Documents/rws/kynetx-iOS/kynetx_iOS_Prefix.pch -o /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-ercfxvcshlnbajcbkndxquvwqbet/kynetx_iOS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-hdbqvlcyebrznpgxqdspiqngfcum/kynetx_iOS_Prefix.pch.gch kynetx_iOS_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317930582.961456
+e317930583.744511
+r1
+xProcessPCH
+x/var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-hdbqvlcyebrznpgxqdspiqngfcum/kynetx_iOS_Prefix.pch.gch
+xkynetx_iOS_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile kynetx_iOS_Prefix.pch317930582#317930583#0(0"0(0#0#63"/Users/alexolson/Documents/rws/kynetx-iOS/kynetx_iOS_Prefix.pch8612276416#2054"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-generated-files.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-own-target-headers.hmap -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-all-target-headers.hmap -iquote /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS-project-headers.hmap -F/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos -iquote/Users/alexolson/Documents/rws/kynetx-objc -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples -iquote/Users/alexolson/Documents/rws/kynetx-objc/JSON -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp -iquote/Users/alexolson/Documents/rws/kynetx-objc/Examples/CocoaApp/JSON -I/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/include -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources/armv7 -I/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/alexolson/Documents/rws/kynetx-iOS/kynetx_iOS_Prefix.pch -o /var/folders/dX/dXLF9-IfFq4LtR9wKqLAMU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/kynetx_iOS_Prefix-hdbqvlcyebrznpgxqdspiqngfcum/kynetx_iOS_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/alexolson/Library/MobileDevice/Provisioning Profiles/C9A1E4D7-70D1-4026-B07D-7A175413E3B1.mobileprovision" /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/embedded.mobileprovision
+s317930587.377851
+e317930587.379258
+r1
+xProcessProductPackaging
+x/Users/alexolson/Library/MobileDevice/Provisioning Profiles/C9A1E4D7-70D1-4026-B07D-7A175413E3B1.mobileprovision
+x/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/embedded.mobileprovision
+lSLF07#2@201"ProcessProductPackaging "/Users/alexolson/Library/MobileDevice/Provisioning Profiles/C9A1E4D7-70D1-4026-B07D-7A175413E3B1.mobileprovision" build/Release-iphoneos/kynetx-iOS.app/embedded.mobileprovision317930587#317930587#0(0"0(0#0#104"/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/embedded.mobileprovision8605852896#438"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/alexolson/Library/MobileDevice/Provisioning Profiles/C9A1E4D7-70D1-4026-B07D-7A175413E3B1.mobileprovision" -o /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS.xcent
+s317930587.412234
+e317930587.425919
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS.xcent
+lSLF07#2@186"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS.xcent317930587#317930587#0(0"0(0#0#115"/Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS.xcent8611314528#449"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/alexolson/Documents/rws/kynetx-iOS/build/kynetx-iOS.build/Release-iphoneos/kynetx-iOS.build/kynetx-iOS.xcent0#
+
+CTouch /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app
+s317930587.379321
+e317930587.412132
+r1
+xTouch
+x/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app
+lSLF07#2@85"Touch /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app317930587#317930587#0(0"0(0#0#0"8604585280#275"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app0#
+
+CValidate /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app
+s317930608.161089
+e317930608.334757
+r1
+xValidate
+x/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app
+o2011-01-28 11:03:28.189 Validation[1007:607] *** Warning: Defaulting to the standard codesign tool
+owarning: iPhone/iPod Touch: kynetx_logo_small.png: icon dimensions (96 x 145) don't meet the size requirements.  The icon file must be 57x57 pixels, in .png format (-19014)
+oUnable to validate your application. - (null)
+o
+lSLF07#2@46"Validate build/Release-iphoneos/kynetx-iOS.app317930608#317930608#0(319"2011-01-28 11:03:28.189 Validation[1007:607] *** Warning: Defaulting to the standard codesign toolwarning: iPhone/iPod Touch: kynetx_logo_small.png: icon dimensions (96 x 145) don't meet the size requirements.  The icon file must be 57x57 pixels, in .png format (-19014)Unable to validate your application. - (null)1(22@164" iPhone/iPod Touch: kynetx_logo_small.png: icon dimensions (96 x 145) don't meet the size requirements.  The icon file must be 57x57 pixels, in .png format (-19014)317930608#18446744073709551615#0#0(6@0"317930608#0#0#0#0#0"0(0#0#79"/Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app8603373056#384"    cd /Users/alexolson/Documents/rws/kynetx-iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/alexolson/Documents/rws/kynetx-iOS/build/Release-iphoneos/kynetx-iOS.app0#
+
